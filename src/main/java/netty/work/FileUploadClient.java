@@ -16,7 +16,7 @@ import java.io.File;
 
 import netty.handler.FileUploadClientHandler;
 import netty.util.FileUploadFile;
-
+//文件上传客户端
 public class FileUploadClient {
 	public void connect(int port, String host,
 			final FileUploadFile fileUploadFile) throws Exception {
